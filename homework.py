@@ -7,16 +7,16 @@ If you want the computer to get for you one of those,please input here:
 """)
 if a == "1":
 	def even():
-		input1 = int(input("Enter the number that you want the code to start from:  "))
-		input2 = int(input("Enter the number that you want the code to end:  "))
+			input1 = int(input("Enter the number that you want the code to start from:  "))
+			input2 = int(input("Enter the number that you want the code to end:  "))
 		for a in range(input1,input2):
 			if a % 2 == 0:
 				print(a)
-		even()
+	even()
 elif a == "2":
 	def odd():
-		a = int(input("Enter your first number:  "))
-		b = int(input("Enter your second number:  "))
+		a = int(input("Enter the number that you want the code to start from:  "))
+		b = int(input("Enter the number that you want the code to end:  "))
 		for c in range(a,b):
 			if c % 2 != 0:
 				print(c)
